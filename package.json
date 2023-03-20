@@ -1,0 +1,30 @@
+{
+  "name": "tranning_nodejs",
+  "version": "1.0.0",
+  "description": "Tranning NodeJs ",
+  "main": "main.js",
+  "scripts": {
+    "start":"nodemon main.js",
+    "test": "https://github.com/NhuanNv/nodejs_trainning.git"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NhuanNv/nodejs_trainning.git"
+  },
+  "keywords": [
+    "nodejs",
+    "trainning_nodejs"
+  ],
+  "author": "NhuanNV",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NhuanNv/nodejs_trainning/issues"
+  },
+  "homepage": "https://github.com/NhuanNv/nodejs_trainning#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.21"
+  }
+}
