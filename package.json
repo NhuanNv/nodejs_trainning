@@ -4,7 +4,7 @@
   "description": "Tranning NodeJs ",
   "main": "main.js",
   "scripts": {
-    "start":"nodemon main.js",
+    "start": "nodemon main.js",
     "test": "https://github.com/NhuanNv/nodejs_trainning.git"
   },
   "repository": {
@@ -22,7 +22,9 @@
   },
   "homepage": "https://github.com/NhuanNv/nodejs_trainning#readme",
   "dependencies": {
-    "express": "^4.18.2"
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.2",
+    "morgan": "^1.10.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.21"
