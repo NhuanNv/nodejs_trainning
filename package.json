@@ -4,7 +4,8 @@
   "description": "Tranning NodeJs ",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon main.js",
+    "start": "nodemon src/resouce/main.js",
+    "watch": "node-sass src/resouce/scss/app.scss src/public/css/app.css",
     "test": "https://github.com/NhuanNv/nodejs_trainning.git"
   },
   "repository": {
@@ -27,6 +28,7 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "node-sass": "^8.0.0",
     "nodemon": "^2.0.21"
   }
 }
